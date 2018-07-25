@@ -1,24 +1,14 @@
-# README
+# Nous sommes le groupe de THP-nantes : Bertyn, Mohamed, Lionel, Nicolas et Florian
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Voici la base de donnée sur The Hacking class.
 
-Things you may want to cover:
+Elle est composée de 2 tables :
 
-* Ruby version
+- courses qui représente les cours avec un attribut title
 
-* System dependencies
+- students pour les élèves qui ont un nom
 
-* Configuration
+Chaque élève ne peut suivre qu'un seul cours mais un cours est destiné à plusieurs élèves.
 
-* Database creation
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Vous pouvez vérifier les tables créées avec 10 lignes pour chaque dans db/development.sqlite3
